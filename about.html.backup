@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles/about.css" />
+    <title>About Us</title>
+  </head>
+  <body>
+    <nav>
+      <div class="background-img-container">
+        <img src="/images/tooplate_sp_wrapper.jpeg" alt="" />
+      </div>
+      <div class="logo-main">
+        <div class="logo-img-container">
+          <img src="/icons/tooplate_logo.png" alt="" />
+        </div>
+        <div class="menu-items">
+          <div class="items">
+            <a href="#">Home</a>
+          </div>
+          <div class="items">
+            <a href="">About Us</a>
+          </div>
+          <div class="items">
+            <a href="">Blog</a>
+          </div>
+          <div class="items">
+            <a href="">Gallery</a>
+          </div>
+          <div class="items">
+            <a href="">Contact</a>
+          </div>
+        </div>
+        <div class="content">
+          <h1>About Us</h1>
+          <p>
+            Aliquam in odio ut ipsum mollis facilisis. Integer est sem,
+            dignissim quis auctor vel, dapibus vel massa. Curabitur vulputate
+            ligula vel mi semper tempus. Vivamus volutpat, elit non tempor
+            vehicula. Nam vitae tempor erat. Validate XHTML and CSS.
+          </p>
+        </div>
+      </div>
+    </nav>
+    <section class="below">
+      <div class="left-div">
+        <h2>Who We Are</h2>
+        <p class="first-para">
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Praesent aliquam velit a magna sodales quis elementum
+          ipsum auctor.
+        </p>
+        <p>
+          In ac libero urna. Suspendisse sed odio ut mi auctor blandit. Duis
+          luctus nulla metus, a vulputate mauris. Integer sed nisi sapien, ut
+          gravida mauris. <a href="">Nam et tellus</a> libero. Cras purus
+          libero, dapibus nec rutrum in, dapibus nec risus. Ut interdum mi sit
+          amet magna feugiat auctor.
+        </p>
+        <div class="inside-box">
+          <div class="side-img-container">
+            <img src="/icons/tooplate_image_02.png" alt="" />
+          </div>
+          <div class="next-text-container">
+            <p class="para-title">
+              Proin aliquam tortor sed diam tristique vulputate
+            </p>
+            <p class="last-para">
+              Praesent volutpat dolor at nulla egestas in vestibulum mauris
+              lacinia. Pellentesque habitant morbi tristique senectus et netus
+              et malesuada fames ac turpis egestas. Ut sed accumsan nisl. Donec
+              malesuada augue <a href="">ac nisl sagittis quis</a> cursus dolor
+              scelerisque. Aliquam ac massa ut nibh pulvinar aliquam vel id
+              metus. Nulla id ante a diam volutpat commodo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="right-div">
+        <h2>Testimonial</h2>
+        <p>
+          Fusce nec felis id lacus sollicitudin vulputate. Proin tincidunt, arcu
+          id pellentesque accumsan, neque dolor imperdiet ligula, quis viverra
+          tellus nulla a odio. Curabitur vitae enim risus, at placerat turpis.
+          Mauris feugiat suscipit tempus fringilla, felis in velit.
+        </p>
+        <p class="second-para">Thomas - Website Template</p>
+      </div>
+    </section>
+    <section class="footer">
+      <p>
+        Copyright © 2048 <a href="">Company Name</a> - Credit:
+        <a href="">HTML Templates</a>
+      </p>
+    </section>
+    <script src="script/script.js"></script>
+  </body>
+</html>
