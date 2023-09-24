@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              greyclr: "#252224",
+              lightpinkclr: "#bdacaa",
+              linkclr: "#e5425b",
+              clrlineb: "#2e2c2d",
+              darkline: "#151415",
+              titleclr: "#edbec1",
+            },
+            backgroundImage: {
+              hero: "url('./images/tooplate_fp_wrapper.jpeg')",
+              menuhover: "url('./icons/tooplate_menu_hover.png')",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <title>Contact</title>
+  </head>
+  <body
+    class="min-w-full min-h-full flex justify-center items-center m-0 p-0 flex-col overflowx-hidden"
+  >
+    <nav class="relative">
+      <div class="background-img-container">
+        <img src="./images/tooplate_sp_wrapper.jpeg" alt="" />
+      </div>
+      <div
+        class="pl-[23%] pr-[23%] logo-main flex flex-row gap-[16rem] w-[100%] h-auto pl-[16.5%] pr-[16.5%] absolute top-[1rem]"
+      >
+        <div class="logo-img-container mt-[1rem]">
+          <img src="./icons/tooplate_logo.png" alt="" />
+        </div>
+        <div class="menu-items pt-[0.5rem] flex flex-row gap-2">
+          <div class="items grow text-center">
+            <a
+              class="home block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./index.html"
+              >Home</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./about.html"
+              >About Us</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./blog.html"
+              >Blog</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./galley.html"
+              >Gallery</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+        <div class="content absolute flex flex-col top-[6rem]">
+          <h1 class="text-titleclr text-3xl">Contact Information</h1>
+          <p class="text-white w-[51rem] text-[0.8rem] mt-[1rem]">
+            Quisque sit amet libero ut urna sollicitudin sodales vitae nec leo.
+            Praesent ipsum erat, porttitor eget rhoncus in, mollis in arcu.
+            Vestibulum ultricies arcu a tellus interdum aliquam. Phasellus ipsum
+            dolor, varius non fringilla non, blandit vel libero. Validate
+            <a class="underline text-linkclr" href="">XHTML</a> and
+            <a class="underline text-linkclr" href="">CSS</a>.
+          </p>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="below w-[100%] z-20 mt-[-2rem] flex flex-row bg-greyclr pl-[21rem] pr-[21rem] gap-16"
+    >
+      <div class="left-side-form">
+        <form class="flex flex-col gap-2" action="">
+          <h1 class="text-white text-2xl">Quick Contact Form</h1>
+          <label class="text-lightpinkclr" for="name">Name:</label>
+          <input
+            class="w-[17rem] bg-black border border-clrlineb"
+            type="text"
+            id="name"
+          />
+          <label class="text-lightpinkclr" for="email">Email:</label>
+          <input
+            class="w-[17rem] bg-black border border-clrlineb"
+            type="email"
+            id="email"
+          />
+          <label class="text-lightpinkclr" for="subject">Subject:</label>
+          <input
+            class="w-[17rem] bg-black border border-clrlineb"
+            type="text"
+            id="subject"
+          />
+          <label class="text-lightpinkclr" for="message">Message:</label>
+          <textarea
+            class="bg-black border border-clrlineb"
+            name=""
+            id="message"
+            cols="50"
+            rows="10"
+          ></textarea>
+          <div
+            class="form-submit flex flex-row justify-between pt-[1rem] pb-[1rem]"
+          >
+            <input
+              class="border pl-[2rem] pr-[2rem] bg-black text-white"
+              type="submit"
+              value="Send"
+            />
+            <input
+              class="border pl-[2rem] pr-[2rem] bg-black text-white"
+              type="reset"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="right-side-map">
+        <h1 class="text-2xl text-white pb-[2rem]">Where We Are</h1>
+        <div class="div-iframe">
+          <iframe
+            class="side-img"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19386.68299797176!2d96.13737358470102!3d16.819887402496747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194b27334108f%3A0xb09c806201afd78d!2sYangon%20University%20Of%20Foreign%20Languages!5e0!3m2!1sen!2sin!4v1695551691992!5m2!1sen!2sin"
+            width="300"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <br />
+        <div class="contact-div flex flex-col gap-2">
+          <h3 class="text-white">Mailing Address</h3>
+          <h4 class="text-white">Company Name</h4>
+          <p class="w-[13rem] text-lightpinkclr text-xs">
+            158-162 Lorem ipsum dolor sit amet, In auctor imperdiet mattis,
+            15580 Curabitur eu nunc pretium
+          </p>
+          <p class="text-lightpinkclr text-xs">Tel: 070-010-7660</p>
+          <p class="text-lightpinkclr text-xs">Fax: 070-090-1840</p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="footer w-[100%] h-[3rem] bg-black flex flex-col justify-center items-center"
+    >
+      <p class="text-lightpinkclr text-[0.8rem]">
+        Copyright © 2048
+        <a class="underline text-linkclr" href="">Company Name</a> - Credit:
+        <a class="underline text-linkclr" href="">HTML Templates</a>
+      </p>
+    </section>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
