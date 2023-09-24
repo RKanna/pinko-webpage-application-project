@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              greyclr: "#252224",
+              lightpinkclr: "#bdacaa",
+              linkclr: "#e5425b",
+              borderclr: "#2e2c2d",
+              darkline: "#151415",
+              btnclr: "#666666",
+              titleclr: "#edbec1",
+            },
+            backgroundImage: {
+              hero: "url('./images/tooplate_fp_wrapper.jpeg')",
+              menuhover: "url('./icons/tooplate_menu_hover.png')",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <title>Blog</title>
+  </head>
+  <body
+    class="min-w-full min-h-full flex justify-center items-center m-0 p-0 flex-col overflowx-hidden"
+  >
+    <nav class="relative">
+      <div class="background-img-container">
+        <img src="./images/tooplate_sp_wrapper.jpeg" alt="" />
+      </div>
+      <div
+        class="pl-[23%] pr-[23%] logo-main flex flex-row gap-[16rem] w-[100%] h-auto pl-[16.5%] pr-[16.5%] absolute top-[1rem]"
+      >
+        <div class="logo-img-container mt-[1rem]">
+          <img src="./icons/tooplate_logo.png" alt="" />
+        </div>
+        <div class="menu-items pt-[0.5rem] flex flex-row gap-2">
+          <div class="items grow text-center">
+            <a
+              class="home block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./index.html"
+              >Home</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./about.html"
+              >About Us</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./blog.html"
+              >Blog</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./galley.html"
+              >Gallery</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+        <div class="content absolute flex flex-col top-[6rem]">
+          <h1 class="text-titleclr text-3xl">Our Galleries</h1>
+          <p class="text-white w-[52rem] text-[0.8rem] mt-[1rem]">
+            Nullam fermentum risus vitae lectus posuere sagittis. Praesent
+            faucibus, dui vitae dolor augue ornare elit, quis congue ante lacus
+            id dui. Sit amet vestibulum odio feugiat eu. Maecenas ut ipsum
+            pellentesque purus ullamcorper fringilla. Validate
+            <a class="underline text-linkclr" href="">XHTML</a> and
+            <a class="underline text-linkclr" href="">CSS</a>.
+          </p>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="main-box w-[100%] z-20 mt-[-2rem] flex flex-col bg-greyclr pl-[21rem] pr-[21rem] gap-6 items-center justify-between pb-[2rem]"
+    >
+      <div class="rowOne flex flex-row justify-between items-center gap-6">
+        <div class="boxOne">
+          <div class="img-box-container w-[100%]">
+            <img
+              class="w-[15rem] h-[7rem] side-img"
+              src="./images/image_01_b.jpg"
+              alt=""
+            />
+          </div>
+          <p class="w-[17rem] text-xs pt-[0.5rem] text-lightpinkclr">
+            Sed convallis laoreet euismod. Nam arcu tortor, tristique vel mattis
+            ut, porta et nunc.
+          </p>
+          <div class="btn-container pt-[0.5rem]">
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Visit
+            </button>
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+        <br />
+        <div class="boxOne">
+          <div class="img-box-container w-[100%]">
+            <img
+              class="w-[15rem] h-[7rem] side-img"
+              src="./images/image_02_b.jpg"
+              alt=""
+            />
+          </div>
+          <p class="w-[15rem] text-xs pt-[0.5rem] text-lightpinkclr">
+            Sed in urna neque nec arcu arcu, sed pretium lacus. Pellentesque nec
+            nisi justo.
+          </p>
+          <div class="btn-container pt-[0.5rem]">
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Visit
+            </button>
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="boxOne">
+          <div class="img-box-container w-[100%]">
+            <img
+              class="w-[15rem] h-[7rem] side-img"
+              src="./images/image_03_b.jpg"
+              alt=""
+            />
+          </div>
+          <p class="w-[16rem] text-xs pt-[0.5rem] text-lightpinkclr">
+            Nulla porta est vitae nibh vestibulum dapibus. Duis vehicula
+            fermentum sem at tempus.
+          </p>
+          <div class="btn-container pt-[0.5rem]">
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Visit
+            </button>
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <div class="rowOne flex flex-row justify-between items-center gap-6">
+        <div class="boxOne">
+          <div class="img-box-container w-[100%]">
+            <img
+              class="w-[15rem] h-[7rem] side-img"
+              src="./images/image_04_b.jpg"
+              alt=""
+            />
+          </div>
+          <p class="w-[17rem] text-xs pt-[0.5rem] text-lightpinkclr">
+            Vivamus volutpat, elit non tempor vehicula, odio arcu dignissim
+            mauris, a sem orci non justo.
+          </p>
+          <div class="btn-container pt-[0.5rem]">
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Visit
+            </button>
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+        <br />
+        <div class="boxOne">
+          <div class="img-box-container w-[100%]">
+            <img
+              class="w-[15rem] h-[7rem] side-img"
+              src="./images/image_05_b.jpg"
+              alt=""
+            />
+          </div>
+          <p class="w-[16rem] text-xs pt-[0.5rem] text-lightpinkclr">
+            Donec quis massa at lectus venenatis blandit sit amet et tortor.
+            Duis consequat rhoncus neque.
+          </p>
+          <div class="btn-container pt-[0.5rem]">
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Visit
+            </button>
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="boxOne">
+          <div class="img-box-container w-[100%]">
+            <img
+              class="w-[15rem] h-[7rem] side-img"
+              src="./images/image_06_b.jpg"
+              alt=""
+            />
+          </div>
+          <p class="w-[16rem] text-xs pt-[0.5rem] text-lightpinkclr">
+            Nunc at lectus justo, in auctor metus. Etiam vel orci vitae elit
+            laoreet et mauris.
+          </p>
+          <div class="btn-container pt-[0.5rem]">
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Visit
+            </button>
+            <button
+              class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="footer w-[100%] h-[3rem] bg-black flex flex-col justify-center items-center"
+    >
+      <p class="text-lightpinkclr text-[0.8rem]">
+        Copyright © 2048
+        <a class="underline text-linkclr" href="">Company Name</a> - Credit:
+        <a class="underline text-linkclr" href="">HTML Templates</a>
+      </p>
+    </section>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
