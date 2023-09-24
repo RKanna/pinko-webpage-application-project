@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              greyclr: "#252224",
+              lightpinkclr: "#bdacaa",
+              linkclr: "#e5425b",
+              borderclr: "#2e2c2d",
+              darkline: "#151415",
+              forshadow: "#312f30",
+              btnclr: "#666666",
+              titleclr: "#edbec1",
+            },
+            backgroundImage: {
+              hero: "url('./images/tooplate_fp_wrapper.jpeg')",
+              menuhover: "url('./icons/tooplate_menu_hover.png')",
+            },
+            boxShadow: {
+              sm: "0px 1px 1px #312f30",
+              DEFAULT:
+                "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+              md: "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+              lg: "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+              xl: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+              "2xl": "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+              inner: "inset 0 2px 4px 0 rgb(0 0 0 / 0.05)",
+              none: "none",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <title>Blog</title>
+  </head>
+  <body
+    class="min-w-full min-h-full flex justify-center items-center m-0 p-0 flex-col overflowx-hidden"
+  >
+    <nav class="relative">
+      <div class="background-img-container">
+        <img src="./images/tooplate_sp_wrapper.jpeg" alt="" />
+      </div>
+      <div
+        class="pl-[23%] pr-[23%] logo-main flex flex-row gap-[16rem] w-[100%] h-auto pl-[16.5%] pr-[16.5%] absolute top-[1rem]"
+      >
+        <div class="logo-img-container mt-[1rem]">
+          <img src="./icons/tooplate_logo.png" alt="" />
+        </div>
+        <div class="menu-items pt-[0.5rem] flex flex-row gap-2">
+          <div class="items grow text-center">
+            <a
+              class="home block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./index.html"
+              >Home</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./about.html"
+              >About Us</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./blog.html"
+              >Blog</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./galley.html"
+              >Gallery</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+        <div class="content absolute flex flex-col top-[6rem]">
+          <h1 class="text-titleclr text-3xl">Blog</h1>
+          <p class="text-white w-[52rem] text-[0.8rem] mt-[1rem]">
+            Phasellus quis nunc sed nunc lobortis elementum. Aliquam viverra
+            consectetur purus, porta laoreet ante porttitor a. In a tellus leo,
+            sit amet consequat felis. Nullam fermentum risus vitae lectus
+            posuere. Validate
+            <a class="underline text-linkclr" href="">XHTML</a> and
+            <a class="underline text-linkclr" href="">CSS</a>.
+          </p>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="below w-[100%] z-20 mt-[-2rem] flex flex-row bg-greyclr pl-[21rem] pr-[21rem] gap-8"
+    >
+      <div class="left-div">
+        <!-- <h2 class="absolute top-[19rem] text-white text-2xl">
+          Free Website Templates
+        </h2> -->
+        <div class="boxOne">
+          <h2 class="pb-[2rem] text-white text-3xl">Free Website Templates</h2>
+          <div class="inbox flex flex-row gap-8">
+            <div class="img-small-container w-[100%]">
+              <img
+                class="side-img"
+                src="./icons/tooplate_image_02.png"
+                alt=""
+              />
+            </div>
+            <div class="text-container flex flex-col">
+              <p class="text-lightpinkclr pb-[1rem] text-sm">
+                Posted in
+                <a class="underline text-linkclr text-sm" href="">Website</a>,
+                <a class="underline text-linkclr text-sm" href="">Designs</a> |
+                Date: March 24, 2048
+              </p>
+              <p class="text-lightpinkclr w-[22rem] text-xs">
+                Aliquam nec felis tellus. Nulla ut nibh elit, ut fermentum mi.
+                Aliquam adipiscing, nunc vel euismod viverra, metus risus
+                ullamcorper diam, tempus consectetur diam metus ultricies nulla.
+                Nullam fermentum risus vitae lectus posuere. Suspendisse in
+                tempus lectus. Nulla laoreet odio eu ligula rhoncus luctus.
+              </p>
+              <div class="linkbtn-line flex flex-row justify-between pt-[1rem]">
+                <a class="underline text-linkclr text-xs" href=""
+                  >132 comments</a
+                >
+                <button
+                  class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+                >
+                  More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div
+          class="line-div border border-solid border-darkline w-full mt-1 shadow-sm"
+        ></div>
+        <br />
+        <div class="boxOne">
+          <h2 class="pb-[2rem] text-white text-3xl">
+            Internet Marketing Service
+          </h2>
+          <div class="inbox flex flex-row gap-8">
+            <div class="img-small-container w-[100%]">
+              <img
+                class="side-img"
+                src="./icons/tooplate_image_03.png"
+                alt=""
+              />
+            </div>
+            <div class="text-container flex flex-col">
+              <p class="text-lightpinkclr pb-[1rem] text-sm">
+                Posted in
+                <a class="underline text-linkclr text-sm" href="">3D</a>,
+                <a class="underline text-linkclr text-sm" href="">Animations</a>
+                | Date: March 20, 2048
+              </p>
+              <p class="text-lightpinkclr w-[22rem] text-xs">
+                Vestibulum adipiscing tempus elit eu condimentum. Fusce at mi
+                felis. Etiam sed velit nibh. Nunc bibendum justo nec eros
+                elementum auctor. Vestibulum ante ipsum primis in faucibus orci
+                luctus et ultrices posuere cubilia Curae; Morbi sollicitudin
+                ultrices urna, at placerat urna pharetra dictum.
+              </p>
+              <div class="linkbtn-line flex flex-row justify-between pt-[1rem]">
+                <a class="underline text-linkclr text-xs" href=""
+                  >148 comments</a
+                >
+                <button
+                  class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+                >
+                  More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div
+          class="line-div border border-solid border-darkline w-full mt-1 shadow-sm"
+        ></div>
+        <br />
+        <div class="boxOne">
+          <h2 class="pb-[2rem] text-white text-3xl">
+            Design Tips for Designer
+          </h2>
+          <div class="inbox flex flex-row gap-8">
+            <div class="img-small-container w-[100%]">
+              <img
+                class="side-img"
+                src="./icons/tooplate_image_04.png"
+                alt=""
+              />
+            </div>
+            <div class="text-container flex flex-col">
+              <p class="text-lightpinkclr pb-[1rem] text-sm">
+                Posted in
+                <a class="underline text-linkclr text-sm" href=""
+                  >Illustrations</a
+                >
+                ,
+                <a class="underline text-linkclr text-sm" href="">Graphics</a> |
+                Date: March 18, 2048
+              </p>
+              <p class="text-lightpinkclr w-[22rem] text-xs">
+                Nulla elementum tincidunt enim auctor laoreet. Suspendisse
+                ornare, ligula at dignissim cursus, sapien orci posuere magna,
+                sed eleifend magna nulla at justo. Suspendisse erat quam, varius
+                eu auctor non, dictum nec lorem. Sed ligula velit, convallis eu
+                laoreet at, adipiscing et libero. In ultrices semper velit ac
+                consectetur.
+              </p>
+              <div class="linkbtn-line flex flex-row justify-between pt-[1rem]">
+                <a class="underline text-linkclr text-xs" href=""
+                  >164 comments</a
+                >
+                <button
+                  class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+                >
+                  More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div
+          class="line-div border border-solid border-darkline w-full mt-1 shadow-sm"
+        ></div>
+        <br />
+      </div>
+      <div class="right-div">
+        <!-- <h2 class="text-white absolute top-[19rem] text-2xl">
+          Latest Projects
+        </h2> -->
+        <div class="boxTwo">
+          <h2 class="text-2xl text-white">Latest Projects</h2>
+          <br />
+          <div class="projectOne">
+            <a class="text-linkclr" href="">Aliquam luctus posuere velit</a>
+            <div class="projectOne-img pt-[0.5rem]">
+              <img
+                class="side-img cursor-pointer"
+                src="./icons/tooplate_image_05.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <br />
+          <div class="projectTwo">
+            <a class="text-linkclr" href="">Fusce euismod mattis mauris</a>
+            <div class="projectOne-img pt-[0.5rem]">
+              <img
+                class="side-img cursor-pointer"
+                src="./icons/tooplate_image_06.png"
+                alt=""
+              />
+            </div>
+            <br />
+          </div>
+          <div class="projectThree">
+            <a class="text-linkclr" href="">Nullam consectetur volutpat</a>
+            <div class="projectOne-img pt-[0.5rem]">
+              <img
+                class="side-img cursor-pointer"
+                src="./icons/tooplate_image_07.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <br />
+          <button
+            class="pl-[2rem] pr-[2rem] bg-black text-btnclr hover:text-linkclr rounded border-borderclr font-bold"
+          >
+            More
+          </button>
+        </div>
+      </div>
+    </section>
+    <section
+      class="footer w-[100%] h-[3rem] bg-black flex flex-col justify-center items-center"
+    >
+      <p class="text-lightpinkclr text-[0.8rem]">
+        Copyright © 2048
+        <a class="underline text-linkclr" href="">Company Name</a> - Credit:
+        <a class="underline text-linkclr" href="">HTML Templates</a>
+      </p>
+    </section>
+    <script src="script/script.js"></script>
+  </body>
+</html>
