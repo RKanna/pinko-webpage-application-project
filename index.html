@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              backclr: "#252224",
+              lightpink: "#bdacaa",
+              linkclr: "#e5425b",
+              titleclr: "#edbec1",
+            },
+            backgroundImage: {
+              hero: "url('./images/tooplate_fp_wrapper.jpeg')",
+              menuhover: "url('./icons/tooplate_menu_hover.png')",
+              learnmore: "url('./icons/tooplate_mid_more.png')",
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="stylesheet"
+      type="
+    text/css"
+      href="./styles/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <title>Pinko Webpage Project</title>
+    <link rel="shortcut icon" href="icons/calculator.png" type="image/x-icon" />
+  </head>
+  <body
+    class="min-w-full min-h-full flex justify-center items-center m-0 p-0 flex-col overflowx-hidden"
+  >
+    <nav class="relative flex w-full h-auto">
+      <div class="background-img-container">
+        <img src="./images/tooplate_fp_wrapper.jpeg" alt="" />
+      </div>
+      <div
+        class="pl-[23%] pr-[23%] logo-main flex flex-row gap-[16rem] w-[100%] h-auto pl-[16.5%] pr-[16.5%] absolute top-[1rem]"
+      >
+        <div class="logo-img-container mt-[1rem]">
+          <img src="./icons/tooplate_logo.png" alt="" />
+        </div>
+        <div class="menu-items pt-[0.5rem] flex flex-row gap-2">
+          <div class="items grow text-center">
+            <a
+              class="home block text-white no-underline p-[1rem] whitespace-nowrap bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./index.html"
+              >Home</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./about.html"
+              >About Us</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./blog.html"
+              >Blog</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./galley.html"
+              >Gallery</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+        <div class="content absolute flex flex-col top-[6rem]">
+          <h1 class="text-titleclr text-3xl w-[18rem] mt-[1rem]">
+            Cras a risus dolor ac accumsan enim
+          </h1>
+          <p class="text-titleclr text-sm mt-[1rem] w-[21.5rem] leading-8">
+            In hac habitasse platea dictumst. Nam tempor tortor elit, in
+            malesuada est. Maecenas fermentum lacus arcu, eu pretium mauris.
+            Cras a risus dolor, ac accumsan enim. Sed vehicula vestibulum
+            pulvinar.
+          </p>
+          <br />
+          <a class="bg-learnmore bg-no-repeat bg-contain text-lightpink" href=""
+            >Learn More</a
+          >
+        </div>
+      </div>
+    </nav>
+    <section
+      class="features z-20 w-full h-[46rem] bg-backclr pl-[23%] pr-[23%]"
+    >
+      <h1 class="mt-[3rem] text-3xl text-white">Welcome To Pinko Theme</h1>
+      <br />
+      <div class="main-box flex flex-row">
+        <div class="left-container-main relative">
+          <div class="feature-box flex flex-row gap-6 pb-[3rem]">
+            <div class="feature-img-container w-[40%]">
+              <img
+                class="feature-img"
+                src="./icons/tooplate_image_01.png"
+                alt=""
+              />
+            </div>
+            <div class="feature-text-container flex w-[60%] flex-col gap-4">
+              <p class="italic-para text-sm italic text-white w-[35.5rem]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                rutrum rhoncus pharetra. Sed in urna neque. Suspendisse nec arcu
+                arcu, sed pretium lacus.
+              </p>
+              <p class="main-para text-sm text-lightpink w-[38rem]">
+                Pinko Theme is brought to you by
+                <a
+                  class="text-linkclr underline"
+                  href="https://www.tooplate.com/"
+                  >Website Templates</a
+                >. Feel free to adapt and apply this template for your websites.
+                Credits go to
+                <a href="https://www.photovaco.com/">Free Photos</a> for photos
+                and
+                <a class="text-linkclr underline" href="www.brushking.eu"
+                  >forty-winks</a
+                >
+                for brushes. Vivamus leo velit, convallis id, ultrices sit amet,
+                tempor a, libero. Quisque rhoncus nulla quis sem. Mauris quis
+                nulla sed ipsum pretium sagittis. Suspendisse feugiat. Validate
+                <a
+                  class="text-linkclr underline"
+                  href="https://validator.w3.org/check?uri=referer"
+                  >XHTML</a
+                >
+                and <a href="">CSS</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="right-container-main">
+          <div class="slider-img-container w-[100%]">
+            <img
+              class="absolute top-[8rem] left-[45rem] w-[30%]"
+              src="./icons/slider_bg.png"
+              alt=""
+            />
+            <div class="slide-show-images absolute top-[10rem] left-[47.5rem]">
+              <img
+                class="slide-image w-[23.5rem]"
+                src="./images/image_01.jpeg"
+                alt=""
+              />
+              <img
+                class="slide-image hide w-[23.5rem]"
+                src="./images/image_02.jpeg"
+                alt=""
+              />
+              <img
+                class="slide-image hide w-[23.5rem]"
+                src="./images/image_03.jpeg"
+                alt=""
+              />
+              <img
+                class="slide-image hide w-[23.5rem]"
+                src="./images/image_00.jpeg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="line-div"></div>
+      <div class="line-row">
+        <div class="services">
+          <div class="quality">
+            <h2>Service Quality</h2>
+            <div class="quality-img-container">
+              <div class="service-img">
+                <img src="./icons/onebit_08.png" alt="" />
+              </div>
+
+              <p>
+                Credit goes to
+                <a href="https://www.icojam.com/">icojoy.com</a> for Onebit
+                icons #2 used in this template. Etiam vel elit massa, sit amet.
+              </p>
+            </div>
+          </div>
+          <button class="btn hover:text-linkclr">Detail</button>
+        </div>
+
+        <div class="services">
+          <div class="quality">
+            <h2>Marketing</h2>
+            <div class="quality-img-container">
+              <div class="service-img">
+                <img src="./icons/onebit_15.png" alt="" />
+              </div>
+
+              <p class="para-services">
+                Aenean molestie nulla ac enim gravida luctus. Donec ut sodales
+                eros. Aenean nec massa nulla.
+              </p>
+            </div>
+          </div>
+          <button class="btn hover:text-linkclr">Detail</button>
+        </div>
+
+        <div class="services">
+          <div class="quality">
+            <h2>Advertising</h2>
+            <div class="quality-img-container">
+              <div class="service-img">
+                <img src="./icons/onebit_16.png" alt="" />
+              </div>
+
+              <p class="para-fet2">
+                Curabitur sed lectus id erat viverra consectetur nec in sapien.
+                Etiam vitae tortor mi. Aliquam erat volutpat.
+              </p>
+            </div>
+          </div>
+          <button class="btn hover:text-linkclr">Detail</button>
+        </div>
+      </div>
+
+      <div class="line-row">
+        <div class="services">
+          <div class="quality">
+            <h2>Client Support</h2>
+            <div class="quality-img-container">
+              <div class="service-img">
+                <img src="./icons/onebit_17.png" alt="" />
+              </div>
+
+              <p>
+                Nullam vel sodales leo. Nam sollicitudin tincidunt eros ac
+                eleifend. Sed id diam dui.
+              </p>
+            </div>
+          </div>
+          <button class="btn hover:text-linkclr">Detail</button>
+        </div>
+
+        <div class="services">
+          <div class="quality">
+            <h2>Social Media</h2>
+            <div class="quality-img-container">
+              <div class="service-img">
+                <img src="./icons/onebit_18.png" alt="" />
+              </div>
+
+              <p>
+                Vivamus sollicitudin euismod massa, non feugiat nulla egestas
+                ut. Sed vel justo quis ligula blandit.
+              </p>
+            </div>
+          </div>
+          <button class="btn hover:text-linkclr">Detail</button>
+        </div>
+
+        <div class="services">
+          <div class="quality">
+            <h2>Worldwide</h2>
+            <div class="quality-img-container">
+              <div class="service-img">
+                <img src="./icons/onebit_19.png" alt="" />
+              </div>
+
+              <p class="parafet3">
+                Suspendisse metus felis, varius at euismod eu, egestas eu elit
+                ante ipsum primis in orci luctus.
+              </p>
+            </div>
+          </div>
+          <button class="btn hover:text-linkclr">Detail</button>
+        </div>
+      </div>
+    </section>
+    <section
+      class="footer w-full h-[3rem] bg-black flex flex-col justify-center items-center"
+    >
+      <p class="text-lightpink text-sm">
+        Copyright © 2048
+        <a class="underline text-linkclr" href="">Company Name</a> - Credit:
+        <a class="underline text-linkclr" href="">HTML Templates</a>
+      </p>
+    </section>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
