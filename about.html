@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              greyclr: "#252224",
+              lightpinkclr: "#bdacaa",
+              linkclr: "#e5425b",
+              titleclr: "#edbec1",
+            },
+            backgroundImage: {
+              hero: "url('./images/tooplate_fp_wrapper.jpeg')",
+              menuhover: "url('./icons/tooplate_menu_hover.png')",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <title>About Us</title>
+  </head>
+  <body
+    class="min-w-full min-h-full flex justify-center items-center m-0 p-0 flex-col overflowx-hidden"
+  >
+    <nav class="relative">
+      <div class="background-img-container">
+        <img src="./images/tooplate_sp_wrapper.jpeg" alt="" />
+      </div>
+      <div
+        class="pl-[23%] pr-[23%] logo-main flex flex-row gap-[16rem] w-[100%] h-auto pl-[16.5%] pr-[16.5%] absolute top-[1rem]"
+      >
+        <div class="logo-img-container mt-[1rem]">
+          <img src="./icons/tooplate_logo.png" alt="" />
+        </div>
+        <div class="menu-items pt-[0.5rem] flex flex-row gap-2">
+          <div class="items grow text-center">
+            <a
+              class="home block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./index.html"
+              >Home</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./about.html"
+              >About Us</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./blog.html"
+              >Blog</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./galley.html"
+              >Gallery</a
+            >
+          </div>
+          <div class="items grow text-center">
+            <a
+              class="block text-white no-underline p-[1rem] whitespace-nowrap hover:bg-menuhover bg-no-repeat bg-contain bg-center"
+              href="./contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+        <div class="content absolute flex flex-col top-[6rem]">
+          <h1 class="text-titleclr text-3xl">About Us</h1>
+          <p class="text-white w-[53rem] text-[0.8rem] mt-[1rem]">
+            Aliquam in odio ut ipsum mollis facilisis. Integer est sem,
+            dignissim quis auctor vel, dapibus vel massa. Curabitur vulputate
+            ligula vel mi semper tempus. Vivamus volutpat, elit non tempor
+            vehicula. Nam vitae tempor erat. Validate
+            <a class="underline text-linkclr" href="">XHTML</a> and
+            <a class="underline text-linkclr" href="">CSS</a>.
+          </p>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="below w-[100%] z-20 mt-[-2rem] flex flex-row bg-greyclr pl-[21rem] pr-[21rem] gap-8 pb-[2rem]"
+    >
+      <div class="left-div">
+        <h2 class="absolute top-[19rem] text-white text-2xl">Who We Are</h2>
+        <p
+          class="first-para text-white italic text-[0.8rem] w-[36.5rem] leading-6"
+        >
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Praesent aliquam velit a magna sodales quis elementum
+          ipsum auctor.
+        </p>
+        <p class="text-lightpinkclr text-[0.8rem] w-[36.5rem] leading-6">
+          In ac libero urna. Suspendisse sed odio ut mi auctor blandit. Duis
+          luctus nulla metus, a vulputate mauris. Integer sed nisi sapien, ut
+          gravida mauris.
+          <a class="underline text-linkclr" href="">Nam et tellus</a> libero.
+          Cras purus libero, dapibus nec rutrum in, dapibus nec risus. Ut
+          interdum mi sit amet magna feugiat auctor.
+        </p>
+        <div class="inside-box flex flex-row gap-8 mt-[2rem]">
+          <div class="side-img-container">
+            <img class="side-img" src="./icons/tooplate_image_02.png" alt="" />
+          </div>
+          <div class="next-text-container">
+            <p class="para-title text-white">
+              Proin aliquam tortor sed diam tristique vulputate
+            </p>
+            <p
+              class="last-para text-lightpinkclr text-[0.8rem] w-[22rem] leading-6"
+            >
+              Praesent volutpat dolor at nulla egestas in vestibulum mauris
+              lacinia. Pellentesque habitant morbi tristique senectus et netus
+              et malesuada fames ac turpis egestas. Ut sed accumsan nisl. Donec
+              malesuada augue
+              <a class="underline text-linkclr" href=""
+                >ac nisl sagittis quis</a
+              >
+              cursus dolor scelerisque. Aliquam ac massa ut nibh pulvinar
+              aliquam vel id metus. Nulla id ante a diam volutpat commodo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="right-div">
+        <h2 class="text-white absolute top-[19rem] text-2xl">Testimonial</h2>
+        <p class="text-lightpinkclr text-[0.8rem] w-[16.5rem] leading-6 italic">
+          Fusce nec felis id lacus sollicitudin vulputate. Proin tincidunt, arcu
+          id pellentesque accumsan, neque dolor imperdiet ligula, quis viverra
+          tellus nulla a odio. Curabitur vitae enim risus, at placerat turpis.
+          Mauris feugiat suscipit tempus fringilla, felis in velit.
+        </p>
+        <p class="second-para text-white text-[0.8rem] leading-6 italic">
+          Thomas - Website Template
+        </p>
+      </div>
+    </section>
+    <section
+      class="footer w-[100%] h-[3rem] bg-black flex flex-col justify-center items-center"
+    >
+      <p class="text-lightpinkclr text-[0.8rem]">
+        Copyright © 2048
+        <a class="underline text-linkclr" href="">Company Name</a> - Credit:
+        <a class="underline text-linkclr" href="">HTML Templates</a>
+      </p>
+    </section>
+    <script src="script/script.js"></script>
+  </body>
+</html>
